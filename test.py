@@ -140,7 +140,7 @@ def main():
 
     headers = {
         'Language': 'en',
-        'sec-ch-ua-platform': '"macOS"',
+        'sec-ch-ua-platform': '"Windows"',
         'X-Project-ID': 'naus',
         'X-Device-OS-Type': 'web',
         'sec-ch-ua': '"Google Chrome";v="137", "Chromium";v="137", "Not/A)Brand";v="24"',
@@ -164,8 +164,8 @@ def main():
     }
 
     params = {
-        "email":"wizdoalt1@gmail.com",
-        "password":"mickmerlin2003",
+        "email":"wizdoemail@gmail.com",
+        "password":"test1234",
         "captcha_data":None
     }
 
@@ -173,8 +173,8 @@ def main():
     signature = w(params, current_time, "post")
 
     req_payload = {
-        "email": "wizdoalt1@gmail.com",
-        "password": "mickmerlin2003",
+        "email": "wizdoemail@gmail.com",
+        "password": "test1234",
         "captcha_data": None,
         "s": signature,
         "t": current_time
